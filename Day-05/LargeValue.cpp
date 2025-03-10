@@ -4,20 +4,15 @@ using namespace std;
 
 int main()
 {
-    // if statement
     int a, b;
     cin >> a >> b;
     if (a > b)
     {
-        cout << "It's True.";
-    }
-    else if (a == b)
-    {
-        cout << "It's Equal.";
+        cout << "The Lager Number Is: " << a;
     }
     else
     {
-        cout << "It's False.";
+        cout << "The Lager Number Is: " << b;
     }
 
     return 0;
