@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int getLageNumber(int X, int Y, int Z)
+int getLargeNumbe(int X, int Y, int Z)
 {
 
     if (X > Y && X > Z)
@@ -23,6 +23,6 @@ int main()
 {
     int a, b, c;
     cin >> a >> b >> c;
-    cout << "The Large Number Is: " << getLageNumber(a, b, c);
+    cout << "The Large Number Is: " << getLargeNumbe(a, b, c);
     return 0;
 }
