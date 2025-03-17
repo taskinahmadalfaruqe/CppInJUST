@@ -7,7 +7,7 @@ int main()
     cin >> a;
     for (int i = 1; i <= a; i++)
     {
-        if (i % 2 == 1)
+        if (i % 2 == 1) 
         {
             cout << "Odd Number Is: " << i << endl;
         }
