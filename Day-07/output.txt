@@ -1,1 +1,10 @@
-1.13326
+Odd Number Is: 1
+Even Number Is: 2
+Odd Number Is: 3
+Even Number Is: 4
+Odd Number Is: 5
+Even Number Is: 6
+Odd Number Is: 7
+Even Number Is: 8
+Odd Number Is: 9
+Even Number Is: 10
