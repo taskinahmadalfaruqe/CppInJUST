@@ -1,0 +1,1 @@
+It Is Not a Prime Number: 10
