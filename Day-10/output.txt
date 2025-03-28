@@ -1,1 +1,4 @@
-5 7 9 
+Sum of the Matrix: 126
+Average: 21
+Min: 5
+Max: 45
