@@ -1,1 +1,5 @@
-3
+Transpose matrix B:
+1 5 
+2 6 
+3 7 
+4 8 

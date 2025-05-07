@@ -3,8 +3,13 @@ using namespace std;
 
 int main()
 {
-    int x = 3, b = 5;
-    b = x++;
-    cout << b;
+    int i = 1;
+    int sum = 0;
+    while (i <= 10)
+    {
+        sum = sum +1 / i;
+        i++;
+    }
+    cout << sum;
     return 0;
 }
