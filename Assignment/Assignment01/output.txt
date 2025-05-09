@@ -1,3 +1,4 @@
-Enter the value of x: 
-Enter the number of times to multiply (n): 
-Result of multiplying 2 by itself 10 times is: 1024
+
+
+
+Average: 4.25
