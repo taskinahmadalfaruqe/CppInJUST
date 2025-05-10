@@ -1,1 +1,1 @@
-The Minimum Value Of Metrix Is: -21
+21 9 5.8 -0.3 -6 
