@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+// Deffine a Function
 double Area(float r)
 {
     float const pi = 3.1416;
@@ -10,6 +12,8 @@ int main()
 {
     float redius;
     redius = 3;
-    cout<< "The Area of Cercel is: " << fixed << setprecision(2) << Area(redius);
+
+    // Call the Function and get output
+    cout << "The Area of Cercel is: " << fixed << setprecision(2) << Area(redius);
     return 0;
 }

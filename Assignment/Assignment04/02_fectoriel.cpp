@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// create function of factorial
 double CalculateFactorial(int number)
 {
     double factorial = 1;
@@ -12,9 +12,9 @@ double CalculateFactorial(int number)
 int main()
 {
     int n;
-    cout << "Enter a number: ";
-    cin >> n;
+    n = 3;
 
+    // check the value and call fectoraial function
     if (n < 0)
     {
         cout << "Factorial is not defined for negative numbers.\n";

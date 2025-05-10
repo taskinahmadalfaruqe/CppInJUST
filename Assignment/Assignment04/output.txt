@@ -1,1 +1,1 @@
-Enter a number: Factorial is not defined for negative numbers.
+The Area OF Rectengel is: 12.00
