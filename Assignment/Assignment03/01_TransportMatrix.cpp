@@ -21,7 +21,7 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            cout << B[i][j] << " ";
+            cout << B[i][j] << "\t";
         }
         cout << endl;
     }

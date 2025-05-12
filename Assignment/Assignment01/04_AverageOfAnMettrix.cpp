@@ -11,12 +11,14 @@ int main()
         {-11, -2, 40, 4}};
 
     int sum = 0;
-    for (int i = 0; i < row; ++i, cout << '\n')
+
+    for (int i = 0; i < row; i++)
+    {
         for (int j = 0; j < col; ++j)
         {
             sum += matrix[i][j];
         }
-
+    }
     double avg = static_cast<double>(sum) / (row * col);
     cout << "Average: " << fixed << setprecision(2) << avg << endl;
     return 0;
