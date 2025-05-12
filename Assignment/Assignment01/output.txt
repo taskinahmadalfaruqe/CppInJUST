@@ -1,4 +1,9 @@
+Float value: 567.123
+Character value: F
+Integer value: 1000
+String message: Welcome to Chine!
 
+Float array values: 7 2 0.3 -1 5.5 
+Character/ASCII mixed array values: a H H c 
 
-
-Average: 4.25
+Names array values: Smith Jack David 

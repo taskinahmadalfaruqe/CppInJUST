@@ -1,15 +1,51 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main()
-{
-    // Declea A Veriable to Seve this value/
-    float FloatNumber = 567.123;
-    char letter = 'F';
-    int IntNumber = 1000;
-    string message = "Welcome To Chine!";
-    double numbers[5] = {7, 2, 0.3, -1, 5.5};
-    double array01[4] = {'a', 'H', 72, 99};
-    string array02[3] = {"Smith", "Jack", "David"};
+int main() {
+    // 1. A floating point number
+    float num1 = 567.123;
+
+    // 2. A character
+    char gender = 'F';
+
+    // 3. An integer
+    int salary = 1000;
+
+    // 4. A string
+    string message = "Welcome to Chine!";
+
+    // 5. A float array
+    float numbers[] = {7, 2, 0.3f, -1, 5.5};
+
+    // 6. A character array (some characters by ASCII code)
+    char mixed[] = {'a', 'H', 72, 99}; // 72 = 'H', 99 = 'c'
+
+    // 7. An array of strings
+    string names[] = {"Smith", "Jack", "David"};
+
+    // ----------- Printing All Values ------------
+
+    cout << "Float value: " << num1 << endl;
+    cout << "Character value: " << gender << endl;
+    cout << "Integer value: " << salary << endl;
+    cout << "String message: " << message << endl;
+
+    cout << "\nFloat array values: ";
+    for (int i = 0; i < 5; i++) {
+        cout << numbers[i] << " ";
+    }
+
+    cout << "\nCharacter/ASCII mixed array values: ";
+    for (int i = 0; i < 4; i++) {
+        cout << mixed[i] << " ";
+    }
+
+    cout << "\n\nNames array values: ";
+    for (int i = 0; i < 3; i++) {
+        cout << names[i] << " ";
+    }
+
+    cout << endl;
     return 0;
 }
