@@ -1,1 +1,1 @@
-Maximum Element of This Matrix is: 70
+The Sum Of This Serise is: 0.91
