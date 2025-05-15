@@ -12,6 +12,6 @@ int main()
     float Height, Width;
     Height = 4, Width = 3;
     // Call the Function AnD Get output
-    cout << "The Area OF Rectengel is: " << fixed << setprecision(2) << Area(Height, Width);
+    cout << "The Area OF Rectangle  is: " << fixed << setprecision(2) << Area(Height, Width);
     return 0;
 }

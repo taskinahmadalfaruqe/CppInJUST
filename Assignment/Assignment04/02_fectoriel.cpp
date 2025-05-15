@@ -12,7 +12,7 @@ double CalculateFactorial(int number)
 int main()
 {
     int n;
-    n = 3;
+    n = 5;
 
     // check the value and call fectoraial function
     if (n < 0)

@@ -42,7 +42,7 @@ public:
 int main()
 {
     // Create object and pass values through constructor
-    Person p("Taskin Ahmad Al Faruqe", 18652842502, 242910701126, "Male", "2001-10-13", "Bangladesh", "Zhenjiang, Jiangsu, China");
+    Person p("Taskin Ahmad Al Faruqe", 18652842502, 242910701126, "Male", "2001-10-13", "Bangladesh", "Zhenjiang, Jiangsu, China.");
 
     p.displayInfo();
     return 0;
