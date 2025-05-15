@@ -28,6 +28,7 @@ int main()
     DesendingSortData(length, DataArray);
 
     // Get Output
+    cout << "Array Short By Descending: ";
     for (int i = 0; i < length; i++)
     {
         cout << DataArray[i] << " ";

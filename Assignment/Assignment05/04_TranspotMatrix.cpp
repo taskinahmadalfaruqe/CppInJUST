@@ -2,26 +2,39 @@
 using namespace std;
 
 int main() {
-    int A[3][2] = {
-        {8, -6},
+    const int rowsA = 3, colsA = 2;
+    const int rowsB = 2, colsB = 3;
+
+    // Matrix A (3x2)
+    int A[rowsA][colsA] = {
+        {8, 6},
         {17, 3},
         {-11, -2}
     };
 
-    int B[2][3];
+    // Matrix B (2x3)
+    int B[rowsB][colsB] = {
+        {-9, 3, 21},
+        {8, 9, 4}
+    };
 
-    // Transpose A to B
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 2; j++) {
-            B[j][i] = A[i][j];
+    // Result matrix C (3x3)
+    int C[rowsA][colsB] = {0}; // Initialize all elements to 0
+
+    // Matrix multiplication: C = A * B
+    for (int i = 0; i < rowsA; ++i) {
+        for (int j = 0; j < colsB; ++j) {
+            for (int k = 0; k < colsA; ++k) {
+                C[i][j] += A[i][k] * B[k][j];
+            }
         }
     }
 
-    // Print result matrix B
-    cout << "Matrix B (Transpose of A):" << endl;
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 3; j++) {
-            cout << B[i][j] << "\t";
+    // Display the result matrix C
+    cout << "Matrix C (A x B):\n";
+    for (int i = 0; i < rowsA; ++i) {
+        for (int j = 0; j < colsB; ++j) {
+            cout << C[i][j] << "\t";
         }
         cout << endl;
     }

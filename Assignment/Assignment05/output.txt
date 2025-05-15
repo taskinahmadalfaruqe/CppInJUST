@@ -1,3 +1,4 @@
-Matrix B (Transpose of A):
-8	17	-11	
--6	3	-2	
+Matrix C (A x B):
+-24	78	192	
+-129	78	369	
+83	-51	-239	
