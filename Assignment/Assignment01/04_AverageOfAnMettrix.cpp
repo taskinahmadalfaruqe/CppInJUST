@@ -20,6 +20,6 @@ int main()
         }
     }
     double avg = static_cast<double>(sum) / (row * col);
-    cout << "Average: " << fixed << setprecision(2) << avg << endl;
+    cout << "Average Of The Matrix is: " << fixed << setprecision(2) << avg << endl;
     return 0;
 }
