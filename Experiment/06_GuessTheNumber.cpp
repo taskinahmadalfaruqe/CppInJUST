@@ -20,7 +20,8 @@ void GuessTheNumber(int randomNum)
         }
         else
         {
-            cout << "Congratulations! You guessed the correct number.\n";
+            cout << "Congratulations! You guessed the correct number: "
+                 << userInput;
             break;
         }
     }
